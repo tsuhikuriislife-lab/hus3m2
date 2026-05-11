@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Responsivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="mascotas.html">Mascotas</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1 id="welcome-msg">Bienvenido a mi Portafolio</h1>
+            <p id="desc-text">Soy un desarrollador aprendiendo nuevas tecnologías.</p>
+            <button id="btn-change-text">Cambiar Descripción</button>
+            <button id="btn-toggle">Mostrar/Ocultar Info</button>
+            <div id="extra-content" class="hidden">
+                <p>Este es el contenido dinámico del portafolio.</p>
+            </div>
+        </section>
+
+        <section id="proyectos" class="grid-container projects">
+            <article class="card">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+            </article>
+            <article class="card">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+            </article>
+            <article class="card">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+            </article>
+        </section>
+
+        <section class="grid-container gallery">
+            <div class="gallery-item"><img src="https://via.placeholder.com/150" alt="G1"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/150" alt="G2"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/150" alt="G3"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/150" alt="G4"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/150" alt="G5"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/150" alt="G6"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
